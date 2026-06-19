@@ -88,6 +88,7 @@
   .rule-ornament { font-size: 1rem; color: var(--gold); line-height: 1; }
 
   .hero-super { font-size: 0.68rem; letter-spacing: 0.28em; text-transform: uppercase; color: var(--sage); margin-bottom: 14px; }
+  .mob-br { display: none; }
 
   .hero h1 {
     font-family: 'Cormorant Garamond', serif;
@@ -171,6 +172,8 @@
     .detail-item:last-child { border-bottom: none; }
     .hero-date-row { flex-direction: column; gap: 10px; padding: 16px 24px; }
     .hero-date-row .dot { display: none; }
+    .sep { display: none; }
+    .mob-br { display: block; }
   }
 </style>
 </head>
@@ -186,11 +189,11 @@
     <span class="year">2026</span>
     <span class="stamp-bot">Bee City</span>
   </div>
-  <p class="hero-super">Second Annual Event &nbsp;·&nbsp; Camp Hill, PA</p>
+  <p class="hero-super">Second Annual Event <span class="sep">&nbsp;·&nbsp;</span><br class="mob-br">Camp Hill, PA</p>
   <div class="rule"><span class="rule-ornament">✦</span></div>
   <h1>Bee City<br>Garden Tour</h1>
   <span class="hero-script">"How does your Garden Grow?"</span>
-  <p class="hero-sub">Pollinator Garden Tour &nbsp;·&nbsp; Camp Hill Bee City USA</p>
+  <p class="hero-sub">Pollinator Garden Tour <span class="sep">&nbsp;·&nbsp;</span><br class="mob-br">Camp Hill Bee City USA</p>
   <div class="hero-date-row">
     <span>Sunday, July 12</span>
     <span class="dot"></span>
