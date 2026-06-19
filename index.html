@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Bee City Garden Tour</title>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Josefin+Sans:wght@300;400;600&family=Pinyon+Script&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Josefin+Sans:wght@300;400;600&family=Great+Vibes&display=swap" rel="stylesheet">
 <style>
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -97,7 +97,7 @@
   }
 
   .hero-script {
-    font-family: 'Pinyon Script', cursive;
+    font-family: 'Great Vibes', cursive;
     font-size: clamp(1.6rem, 4vw, 2.4rem);
     color: var(--ink-mid); margin-bottom: 22px; display: block;
   }
@@ -134,8 +134,8 @@
   .expect-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 24px; }
   .expect-card { background: var(--cream); border: 0.5px solid rgba(30,46,20,0.18); border-top: 2px solid var(--gold); padding: 28px 26px; }
   .expect-card .num { font-family: 'Cormorant Garamond', serif; font-size: 2.2rem; font-weight: 700; color: var(--gold); line-height: 1; margin-bottom: 12px; display: block; }
-  .expect-card h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.1rem; font-weight: 600; color: var(--ink); margin-bottom: 8px; }
-  .expect-card p { font-size: 0.75rem; letter-spacing: 0.03em; color: var(--ink-mid); line-height: 1.9; }
+  .expect-card h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.5rem; font-weight: 600; color: var(--ink); margin-bottom: 12px; }
+  .expect-card p { font-size: 1rem; letter-spacing: 0.02em; color: var(--ink-mid); line-height: 1.9; }
 
   /* ── RAFFLE ── */
   .raffle {
@@ -169,7 +169,8 @@
     .intro, .expect, .contact { padding-left: 24px; padding-right: 24px; }
     .detail-item { border-right: none; border-bottom: 0.5px solid rgba(200,168,75,0.3); padding: 16px 0; }
     .detail-item:last-child { border-bottom: none; }
-
+    .hero-date-row { flex-direction: column; gap: 10px; padding: 16px 24px; }
+    .hero-date-row .dot { display: none; }
   }
 </style>
 </head>
